@@ -10,7 +10,7 @@ namespace WpfApp18
     /// </summary>
     public partial class MainWindow
     {
-        private static readonly string calcFailureMessage = "Calculation failed.";
+        private static readonly string calcFailureMessage = "-E-";
         private static readonly int maxLength = 16;
         
         
@@ -100,9 +100,11 @@ namespace WpfApp18
                     return calcResult;
                 }
             }
-            catch (Exception ex)
+            // catch (Exception ex)
+            catch
             {
-                return ex.Message;
+                // return ex.Message;
+                return calcFailureMessage;
             }
         }
     }
