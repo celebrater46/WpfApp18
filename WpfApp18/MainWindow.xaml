@@ -29,7 +29,7 @@
         </Style>
     </Window.Resources>
     
-    <Grid>
+    <Grid x:Name="rootGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
