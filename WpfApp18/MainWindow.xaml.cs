@@ -17,6 +17,8 @@ namespace WpfApp18
         public MainWindow()
         {
             InitializeComponent();
+            
+            initEvents();
         }
 
         private void initEvents()
